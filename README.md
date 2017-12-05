@@ -1,5 +1,7 @@
 # Simple-Java-Azure-Service-Bus
 Simple call to Azure Service Bus with Java
+El proyecto consiste en un hilo ejecutando continuamente, que consulta contra nuestra queue si hay algún nuevo mensaje activo. En el momento que detecta que hay un mensaje activo lo muestra por pantalla y lo borra de la queue.
+
 
 # How To
 
@@ -21,6 +23,4 @@ Pasos previos antes de poder ejecutar el código de este proyecto necesitas crea
 ## Ejecutar
 
 Una vez que tenemos nuestra queue creada, pillamos el connectionstring y lo sustituimos, así como también el queueName. Ejecutamos y listo! 
-
-
 
